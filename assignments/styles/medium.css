@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.5em) {
+
+h1 {
+    border-top: none;
+    border-bottom: none;
+}
+
+h2 {
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+section {
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+p {
+    display: none;   
+}
+}
+
