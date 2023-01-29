@@ -1,0 +1,105 @@
+@media screen and (min-width: 1000px) {
+
+#hamburgerBtn {
+    display: none;
+}
+
+#primaryNav {
+    grid-column: 2/3;
+    display: flex;   
+}
+
+#primaryNav a {
+    border: none;
+    color: black; 
+}
+
+.socialmedia {
+    margin-left: 25px;
+}
+
+#bottomofheader {
+    box-sizing: border-box;
+    width: 98%;
+}
+
+main {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.event {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 3vw;
+}
+
+.callaction {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.newsrelease {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.spotlight {
+    grid-column: 3/4;  
+    grid-row: 1/4;
+    margin-right: 3vw;
+}
+
+.spotlight_container {
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.spotlight_container div {
+    margin: 0;
+    padding: 60px 20px;
+}
+
+.spotlight_container div:nth-of-type(3){
+    display: block;
+}
+
+.weather {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 3vw;
+}
+
+.join {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 3vw;
+}
+
+div .info1 {
+    margin-left: 60px; 
+}
+
+.info2 {
+    margin-right: 100px;
+}
+
+.logo2 {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+#lastMod {
+    margin: 0;
+    font-size: 14px;
+}
+}
