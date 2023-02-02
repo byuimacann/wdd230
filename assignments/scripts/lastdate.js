@@ -1,3 +1,3 @@
-const date = document.lastModified;
-const lastModDate = new Date(date);
-document.getElementById("lastdate").innerHTML = `Last Updated: ${new Date(date)}`;
+const date = new Date();
+const lastModDate = document.lastModified;
+document.getElementById("lastdate").innerHTML = `Last Updated: ${lastModDate}`;
