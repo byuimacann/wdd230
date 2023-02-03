@@ -19,6 +19,8 @@ nav {
     margin: 0 auto;
     text-align: center;
     background-color: #bf6e50;
+    font-size: 24px;
+
 }
 
 nav div {
@@ -47,7 +49,7 @@ main {
 
 h1, h2 {
     font-family: Garamond, 'Times New Roman', serif;
-    color: white;
+    color: black;
 }
 
 h2 {
@@ -71,8 +73,8 @@ footer {
     text-align: center;
     background-color: #4a95cf;
     padding: 20px;
-    font-size: 1.2rem;
-    color: white;
+    font-size: 24px;
+    color: black;
 }
 
 /*Design.html page */
@@ -96,11 +98,11 @@ li {
 .scenarios {
     background-color: #4a95cf;
     padding: 15px;
-    color: white;
+    color: black;
 }
 
 .scenarios h2 {
-    color: white;
+    color: black;
 }
 
 .scenarios p {
