@@ -47,20 +47,17 @@ section {
     grid-column: 1/4;
     grid-row: 4/5;
     align-items: center;
-    padding: 25px;
+    padding: 20px;
     background-color: #4A95cf; 
 }
 
 .join button {
     width: 600px;
-    padding: 20px;
     background: #bf6E50;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 0px 20px grey;
     text-transform: uppercase; 
-    box-shadow: 2px 0px 2px grey;
-    font-size: 1.3rem;
 }
 
 .event {
@@ -80,6 +77,7 @@ section {
 
 .info1 {
     display: flex;
+    flex: wrap;
     align-items: center;
     margin-left: 2vw;
     text-align: left;
@@ -102,5 +100,6 @@ address {
 .info1, .info2 {
     flex: 1 1 auto;
 }
+
 
 }
