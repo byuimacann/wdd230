@@ -8,6 +8,13 @@ body {
     font-size: 18px;
 }
 
+#banner {
+    padding: 15px;
+    background: #89a63c;
+    color: white;
+    text-align: center;
+}
+
 header {
     background-color: #4A95cf;
     padding-bottom: 20px;
@@ -47,27 +54,27 @@ h3, h4 {
     flex: 1 1 auto;
 }
 
-.socialmedia a {
-    display: block;
-    margin: 5px;
-    padding: 10px 8px;
-    background-color: white;
+
+.socialmedia img {
+    max-width: 70%;
     border-radius: 50%;
 }
+
 
 nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: #000;
 }
 
 nav {
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
     flex: 1 1 auto;
-    background-color: #4A95cf;
-    
+    background-color: #4A95cf; 
+    padding: 10px;
+    text-align: center;
 }
 
 nav ul {
