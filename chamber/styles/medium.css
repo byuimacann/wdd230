@@ -29,6 +29,10 @@ section {
     margin-top: -2px;
 }
 
+.newsrelease p:nth-of-type(3){
+    display: block;
+}
+
 .spotlight {
     grid-column: 1/4;
     grid-row: 3/4;

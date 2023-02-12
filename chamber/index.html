@@ -20,56 +20,75 @@
     <div id='banner'></div>
     <header>
         <div class="topofheader">
-                <div class="logo_wrapper">
-                    <img class="logo" src="images/logo.png" alt="Lake Pleasant CC logo">
-                    <h4>Lake Pleasant<br>Chamber of Commerce</h4>
-                </div>
-                <div class="socialmedia">
-                    <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="fb icon logo"></a>
-                    <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="insta icon logo"></a>
-                </div>
-                <nav>
-                    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-                    <ul id="primaryNav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Discover</a></li>
-                        <li><a href="#">Directory</a></li>
-                        <li><a href="#">Join</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+            <div class="logo_wrapper">
+                <img class="logo" src="images/logo.webp" alt="Lake Pleasant CC logo">
+                <h4>Lake Pleasant<br>Chamber of Commerce</h4>
             </div>
-            <div id="bottomofheader"></div>
+            <div class="socialmedia">
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="fb icon logo"></a>
+                <a href="https://instagram.com" target="_blank"><img src="images/instagram.png"
+                        alt="insta icon logo"></a>
+            </div>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="bottomofheader"></div>
     </header>
 
     <main>
         <section class="callaction">
             <h2>Lake Pleasant Chamber of Commerce</h2>
             <div class="heroimg-container">
-                <img class="heroimg" src="images/waterhome.jpg"
-                    alt="picture of water feature with homes in the background">
+                <!--<picture>
+                    <source media="(min-width:1000px )" srcset="images/waterhome1000.jpg">
+                    <source media="(min-width:600px )" srcset="images/waterhome800.jpg">
+                    <source srcset="images/waterhome400.jpg">
+                    <img class="heroimg src=" images="images/waterhome400.jpg"
+                        alt="large water pool with homes surrounding">
+                </picture>-->
+                <picture>
+                    <source media="(min-width:1000px )" srcset="images/wdd230-orgtall1250.jpg">
+                    <source media="(min-width:600px )" srcset="images/wdd230-org800.jpg">
+                    <source srcset="images/wdd230-org400.jpg">
+                    <img class="heroimg" src="images/wdd230-org400.jpg" alt="boardroom with business people around table">
+                </picture>
             </div>
             <button type="submit">Join Now</button>
         </section>
         <section class="event">
             <div>
-            <h3>10th Annual Fundraiser Gala</h3>
-            <p>ThurApril 20th, 2023<br>7:00 p.m.<br>
-                1525 Tuscan Dr<br>Lake Pleasant, AZ 85381</p>
+                <h3>10th Annual Fundraiser Gala</h3>
+                <p>ThurApril 20th, 2023<br>7:00 p.m.<br>
+                    1525 Tuscan Dr<br>Lake Pleasant, AZ 85381</p>
             </div>
         </section>
         <section class="weather">
             <div>
-            <h3>Weather</h3>
-            <img src="images/sun.jpg" alt="image of a yellow sun">
-            <p class="temp">
-                Sunny<br>
-                75℉<br>
-            <p>
+                <h3>Weather</h3>
+                <img src="images/sun.jpg" alt="image of a yellow sun">
+                <p><span id="tempF">
+                        75℉</span><br>
+                    Wind Speed: <span id="wSpeed">3.0 mph</span><br>
+                    Wind Chill: <span id="wChill">N/A</span>
+                </p>
             </div>
         </section>
         <section class="newsrelease">
             <h3>News Release</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi fuga at cupiditate modi ipsa corrupti
+                provident dolorum, temporibus delectus excepturi dolores ullam obcaecati quia inventore ipsam repellat
+                eos molestias reiciendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi fuga at cupiditate modi ipsa corrupti
+                provident dolorum, temporibus delectus excepturi dolores ullam obcaecati quia inventore ipsam repellat
+                eos molestias reiciendis.</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi fuga at cupiditate modi ipsa corrupti
                 provident dolorum, temporibus delectus excepturi dolores ullam obcaecati quia inventore ipsam repellat
                 eos molestias reiciendis.</p>
@@ -78,19 +97,34 @@
             <div class="spotlight_container">
                 <div class="spot">
                     <h3>The Flower Garden</h3>
-                    <img src="images/florist.jpg" alt="hands holding orange flowers">
+                    <picture>
+                        <source media="(min-width:1000px )" srcset="images/florist1000.jpg">
+                        <source media="(min-width:600px )" srcset="images/florist800.jpg">
+                        <source srcset="images/florist400.jpg">
+                        <img src="images/florist400.jpg" alt="hands holding orange flowers">
+                    </picture>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
                         adipisicing elit.</p>
                 </div>
                 <div class="spot">
                     <h3>Anna's Bakery</h3>
-                    <img src="images/bakery.jpg" alt="hands taking muffins out of oven">
+                    <picture>
+                        <source media="(min-width:1000px )" srcset="images/bakery1000.jpg">
+                        <source media="(min-width:600px )" srcset="images/bakery800.jpg">
+                        <source srcset="images/bakery400.jpg">
+                        <img src="images/bakery400.jpg" alt="hands taking muffins out of oven">
+                    </picture>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
                         adipisicing elit.</p>
                 </div>
                 <div class="spot">
                     <h3>Cora's Clothing Boutique</h3>
-                    <img src="images/clothes.jpg" alt="stylish clothes hanging on a rack">
+                    <picture>
+                        <source media="(min-width:1000px )" srcset="images/clothes1000.jpg">
+                        <source media="(min-width:600px )" srcset="images/clothes800.jpg">
+                        <source srcset="images/clothes400.jpg">
+                        <img src="images/clothes400.jpg" alt="stylish clothes hanging on a rack">
+                    </picture>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
                         adipisicing elit.</p>
                 </div>
@@ -98,11 +132,13 @@
         </section>
         <section class="join">
             <button type="submit">Join Us!</button>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nesciunt hic mollitia sequi doloremque minima laborum provident perspiciatis dolor est, magni error corporis porro ipsum, aliquam omnis velit dolorum voluptatibus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nesciunt hic mollitia sequi doloremque
+                minima laborum provident perspiciatis dolor est, magni error corporis porro ipsum, aliquam omnis velit
+                dolorum voluptatibus.</p>
         </section>
         <div class="info">
             <div class="info1">
-                <img class="logo2" src="images/logo.png" alt="large logo">
+                <img class="logo2" src="images/logo.webp" alt="large logo">
                 <address>
                     <b>Lake Pleasant Chamber of Commerce</b><br>
                     20542 N Lake Pleasant Rd<br>
@@ -124,6 +160,7 @@
         <div id="lastMod"></div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
