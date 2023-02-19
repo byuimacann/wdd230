@@ -27,7 +27,7 @@ function toggleMenu() {
 
   let daysBetween = (lastVisited - Date.now()) / 84600000;
 
-  daysDisplay.innerHTML = daysBetween.toFixed(0);
+  daysDisplay.innerHTML = `Days Between Visits: ${daysBetween.toFixed(0)}`;
 
 
 
