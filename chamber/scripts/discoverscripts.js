@@ -20,12 +20,12 @@ function toggleMenu() {
   const daysDisplay = document.querySelector("#daysBetween");
 
   const today = new Date()
-  const fullDate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(today);
+  const lastDate = today.getDate();
   
-  let lastVisited = localStorage.getItem("fullDate");
-  localStorage.setItem("fullDate", lastVisited);
+  let lastVisited = Number(localStorage.getItem("lastDate"));
+  localStorage.setItem("lastDate", lastVisited);
 
-  let daysBetween = (lastVisited.getItem() - Date.now()) / 84600000;
+  let daysBetween = (lastVisited - Date.now()) / 84600000;
 
   daysDisplay.innerHTML = daysBetween.toFixed(0);
 
