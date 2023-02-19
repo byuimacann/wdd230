@@ -1,5 +1,5 @@
 /* Home page CSS */
-html {
+* {
     box-sizing: border-box;
 }
 
@@ -282,6 +282,55 @@ footer div {
     margin: -5px 50px 0px 50px;
     font-size: 1.3rem;
 }
+
+
+/* Discover Page CSS*/
+
+.discover section {
+    margin: 0;
+}
+
+.stats-container {
+    text-align: center;
+}
+
+.stats img {
+    border-radius: 10px;
+}
+
+.stats ul {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+    margin: 35px 0px 50px 0px;
+}
+
+.stats p {
+    margin: 0 auto;
+    padding: 25px 25px 40px 25px;
+    background: #bf6E50;  
+    line-height: 1.5rem;
+}
+
+.photo_gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_gallery figure {
+    margin: 10px auto;
+}
+
+.photo_gallery img {
+    border-radius: 10px;
+    width: 90%;
+}
+
+
+
+
 
 
 
