@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+table {
+   border: 1px solid lightgray;
+   padding: 10px;
+   border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-size: .75rem;
+}
+
+tr {
+    text-align: center;
+}
+
+thead, thead tr {
+    border: 1px solid black;
+}
+
+thead tr:nth-child(1) th, thead tr:nth-child(2) th:nth-child(1) {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+tr:nth-child(2) th ~ th {
+    background: rgb(87, 87, 87);
+    color: white;
+    padding: 20px;
+}
+
+tbody th, td {
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+}
+
+tbody tr:nth-child(2n+2) {
+    background-color: rgb(229, 228, 228);
+}
+
+
+
