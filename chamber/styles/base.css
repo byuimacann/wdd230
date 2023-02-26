@@ -354,8 +354,10 @@ form fieldset {
 
 form legend {
     color:#bf6E50;
+    font-weight:bold;
     margin: 0 .1rem;
     padding: 0 .5rem;
+    text-transform: uppercase;
 }
 
 form label.one {
@@ -406,10 +408,11 @@ form input.submitBtn {
     border-radius: 10px;
     padding: 1.2rem;
     width: 100%;
-    margin: 2vw;
-    max-width: 30rem;
+    margin: 1vw;
+    max-width: 20rem;
     box-shadow: 1px 3px 5px #999;  
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
+    text-transform: uppercase; 
 }
 
 form label.one input:required {
@@ -428,6 +431,7 @@ form label.one input:required:valid {
     flex-direction: column;
     text-align: left;
     margin-left: 3vw;
+    height: 50vh;
 }
 
 .thankyou-container h1 {
