@@ -107,7 +107,7 @@ address {
     flex: 1 1 auto;
 }
 
-}
+
 
 /* Discover Page CSS*/
 
@@ -165,4 +165,20 @@ address {
 .stats p {
     width: 90%;
     border-radius: 10px;
+}
+
+/* JOIN PAGE CSS */
+main.form-page {
+    display: block;
+}
+
+
+
+/* THANK YOU PAGE CSS */
+main section.thankyou-container {
+    width: 94vw;
+    margin-bottom: 20px;
+}
+
+
 }

@@ -138,7 +138,7 @@ footer p {
     margin: 0;
     font-size: 20px;
 }
-}
+
 
 /* Discover Page CSS*/
 
@@ -156,4 +156,35 @@ footer p {
 
 .article {
     padding: 70px;
+}
+
+/* JOIN PAGE CSS */
+
+.benefits {
+    display: grid; 
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+}
+
+.benefits ul {
+    margin-top: 23px;
+    border-left: 3px solid #4A95cf;
+}
+
+.benefits ul li {
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+/* THANK YOU PAGE CSS */
+
+main section.thankyou-container {
+    width: 75vw;
+}
+
+main section.thankyou-container h1 {
+    text-align: left;
+}
+
 }

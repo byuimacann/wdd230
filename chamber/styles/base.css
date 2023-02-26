@@ -1,4 +1,4 @@
-/* Home page CSS */
+/*------------- HOME PAGE CSS------------- */
 * {
     box-sizing: border-box;
 }
@@ -284,7 +284,7 @@ footer div {
 }
 
 
-/* Discover Page CSS*/
+/*------------- DISCOVER PAGE CSS------------- */
 
 .discover section {
     margin: 0;
@@ -329,10 +329,108 @@ footer div {
 }
 
 
+/*------------- JOIN PAGE CSS------------- */
+
+main.form-page {
+    width: 100%;
+}
+
+.form-heading {
+    margin-left: 2vw;
+    margin-right: 2%;
+}
+
+form {
+    width: 96%;
+    margin: 0 auto;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border-radius: 10px;
+    border-color:#4A95cf;
+    padding: 1rem;
+}
+
+form legend {
+    color:#bf6E50;
+    margin: 0 .1rem;
+    padding: 0 .5rem;
+}
+
+form label.one {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.one input, form label.one textarea {
+    display: block;
+    padding: 1.2rem;
+    border: 1px solid #bf6E50;
+    border-radius: 10px;
+    color: #555;
+    background-color: rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 30rem;
+}
+
+form label.one textarea {
+    height: 15rem;
+}
+
+form label.two {
+    display: block;
+    padding: 1rem 0;
+    font-size: 1.1rem;    
+}
+
+form input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: .75rem
+}
+
+form ul {
+    margin-top: -5px;
+}
+
+form li {
+    color: #555;
+    margin-left: .6rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #bf6E50;
+    color: white;
+    border-radius: 10px;
+    padding: 1.2rem;
+    width: 100%;
+    margin: 2vw;
+    max-width: 30rem;
+    box-shadow: 1px 3px 5px #999;  
+    font-size: 1.3rem; 
+}
+
+form label.one input:required {
+    border-left: 8px solid #bf6E50;
+}
+
+form label.one input:required:valid {
+    border-left: 8px solid #89a63c;
+}
 
 
+/*------------- THANK YOU PAGE CSS------------- */
 
+.thankyou-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 3vw;
+}
 
-
-
+.thankyou-container h1 {
+    text-align: center;
+}
 

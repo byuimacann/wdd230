@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML form for chamber website for BYUI course WDD230">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Source+Sans+Pro:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Join Form</title>
+</head>
+
+<body>
+    <header>
+        <div class="topofheader">
+            <div class="logo_wrapper">
+                <img class="logo" src="images/logo.webp" alt="Lake Pleasant CC logo">
+                <h4>Lake Pleasant<br>Chamber of Commerce</h4>
+            </div>
+            <div class="socialmedia">
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="fb icon logo"></a>
+                <a href="https://instagram.com" target="_blank"><img src="images/instagram.png"
+                        alt="insta icon logo"></a>
+            </div>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- <div id="bottomofheader"></div> -->
+    </header>
+    <main class="form-page">
+        <h1 class="form-heading">Chamber of Commerce Membership Form</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="one">First Name*<input type="text" name="fname" required></label>
+                <label class="one">Last Name*<input type="text" name="lname" required></label>
+                <label class="one">Email*<input type="email" name="email" placeholder="person@gmail.com"
+                        required></label>
+                <label class="one">Cell Phone*<input type="tel" name="phone" placeholder="2355449999" required></label>
+                <label class="one">Business Position<input type="text" name="bposition" pattern="[- A-Za-z]{7,}" title="Use alpha characters, hyphens, and spaces only"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="one">Business Name*<input type="text" name="bname" title="Business Name" required></label>
+                <label class="one">Business Description<textarea name="bdescription"></textarea></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Levels & Benefits</legend>
+                <div class="benefits">
+                    <label class="two"><input type="radio" name="membership" value="gold"> Gold - $299/year</label>
+                    <ul class="gold">
+                        <li>Advertising</li>
+                        <li>Event Discounts</li>
+                        <li>Page Spotlights</li>
+                        <li>Training</li>
+                    </ul>
+                </div>
+                <div class="benefits">
+                    <label class="two"><input type="radio" name="membership" value="silver"> Silver - $199/year</label>
+                    <ul class="silver">
+                        <li>Advertising</li>
+                        <li>Page Spotlights</li>
+                        <li>Training</li>
+                    </ul>
+                </div>
+                <div class="benefits">
+                    <label class="two"><input type="radio" name="membership" value="bronze"> Bronze - $99/year</label>
+                    <ul class="bronze">
+                        <li>Advertising</li>
+                        <li>Training</li>
+                    </ul>
+                </div>
+                <div class="benefits">
+                    <label class="two"><input type="radio" name="membership" value="np"> Non-Profit - $0/year</label>
+                    <ul class="np">
+                        <li>Training</li>
+                    </ul>
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Join Chamber" class="submitBtn">
+
+            <label><input type="hidden" id="dateTime"></label>
+        </form>
+
+        <div class="info">
+            <div class="info1">
+                <img class="logo2" src="images/logo.webp" alt="large logo">
+                <address>
+                    <b>Lake Pleasant Chamber of Commerce</b><br>
+                    20542 N Lake Pleasant Rd<br>
+                    Peoria, AZ 85382
+                </address>
+            </div>
+            <div class="info2">
+                <p>info@lakepleasantcc.org</p>
+                <p>623-558-6370</p>
+                <a href="https://goo.gl/maps/ZTmF5qPeYqcFfkzCA">📍Location Map</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2023 Lake Pleasant Chamber</p>
+        <p>Annette MacLeod</p>
+        <p>WDD 230 Project</p>
+        <div id="lastMod"></div>
+    </footer>
+    <script src="scripts/indexscripts.js"></script>
+    <script src="scripts/joinscripts.js"></script>
+</body>
+
+</html>
