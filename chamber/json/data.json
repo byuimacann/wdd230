@@ -18,7 +18,7 @@
             "bstate": "AZ",
             "bzip": "85383",
             "bphone": "623-440-6582",
-            "weburl": "dipnailspa.business.site/",
+            "weburl": "dipnailspa.business.site",
             "logourl" :"https://twistedsugar.com/wp-content/uploads/2022/02/TS-Main-Logo-1024x594.png",
             "memberlevel": "Silver"
         },
@@ -29,7 +29,7 @@
             "bstate": "AZ",
             "bzip": "85383",
             "bphone": "623-979-9197",
-            "weburl": "designmesalon.com/",
+            "weburl": "designmesalon.com",
             "logourl" :"http://nebula.wsimg.com/58638a5f56f9a3c2379a160f5e8f95dc?AccessKeyId=1C194DC35E4B8B2C05FF&disposition=0&alloworigin=1",
             "memberlevel": "Gold"
         },
@@ -40,7 +40,7 @@
             "bstate": "AZ",
             "bzip": "85383",
             "bphone": "623-572-9300",
-            "weburl": "peoriappd.com/",
+            "weburl": "peoriappd.com",
             "logourl" :"https://peoriappd.com/wp-content/uploads/2019/08/logo660x300.png",
             "memberlevel": "Bronze"
         },
@@ -51,7 +51,7 @@
             "bstate": "AZ",
             "bzip": "85382",
             "bphone": "623-825-3656",
-            "weburl": "atkinsonsmartialarts.com/index.php",
+            "weburl": "atkinsonsmartialarts.com",
             "logourl" :"https://www.atkinsonsmartialarts.com/templates/j51_phoenix/images/logo.png",
             "memberlevel": "Gold"
         },
@@ -62,7 +62,7 @@
             "bstate": "AZ",
             "bzip": "85382",
             "bphone": "623-476-5877",
-            "weburl": "salathaipeoria.com/",
+            "weburl": "salathaipeoria.com",
             "logourl" :"https://img1.wsimg.com/isteam/ip/18335fc6-8569-4415-b499-a1eb7f4145a5/e518dca23946cd68dcc9901c0f55d901.PNG/:/rs=w:104,h:100,cg:true,m/cr=w:104,h:100/qt=q:95",
             "memberlevel": "Silver"
         },
@@ -73,8 +73,8 @@
             "bstate": "AZ",
             "bzip": "85382",
             "bphone": "623-776-8400",
-            "weburl": "azbroadway.org/",
-            "logourl" :"https://azbroadway.org/wp-content/uploads/2022/06/azbroadway_logo-ko.svg",
+            "weburl": "azbroadway.org",
+            "logourl" :"https://tickets.azbroadwaytheatre.com/1/WebPagesEN/tmGifs/tmCompanyLogo.jpg",
             "memberlevel": "Gold"
         },
         {
@@ -84,7 +84,7 @@
             "bstate": "AZ",
             "bzip": "85382",
             "bphone": "623-334-1200",
-            "weburl": "azicepeoria.com/",
+            "weburl": "azicepeoria.com",
             "logourl" :"https://storage.builderall.com//franquias/2/6796099/editor-html/7823787.png",
             "memberlevel": "Bronze"
         },
@@ -95,19 +95,19 @@
             "bstate": "AZ",
             "bzip": "85381",
             "bphone": "623-412-3228",
-            "weburl": "dbatpeoria.com/",
+            "weburl": "dbatpeoria.com",
             "logourl" :"https://www.dbatpeoria.com/images/DbatPeoriaBlack2.png",
             "memberlevel": "Silver"
         },
         {
-            "bname": "Trail CPA",
-            "baddress": "29784 W Yearling Rd #B-1540",
+            "bname": "Synergy",
+            "baddress": "24654 N Lake Pleasant Pkwy Ste 103",
             "bcity": "Peoria",
             "bstate": "AZ",
-            "bzip": "85382",
-            "bphone": "480-434-3002",
-            "weburl": "www.trailcpa.com/",
-            "logourl" :"https://images.squarespace-cdn.com/content/v1/5c292e00f407b4e206c6cf69/1546211932886-MQXU1HB63O8ONE1403TX/Trail+CPA-logo-white.png?format=1500w",
+            "bzip": "85383",
+            "bphone": "480-492-8902",
+            "weburl": "synergy-tax.com",
+            "logourl" :"https://synergy-tax.com/uploads/3/4/2/4/34246301/8356234.png",
             "memberlevel": "Gold"
         }
     ]
