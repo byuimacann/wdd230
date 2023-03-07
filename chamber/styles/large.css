@@ -187,4 +187,66 @@ main section.thankyou-container h1 {
     text-align: left;
 }
 
+/* DIRECTORY PAGE CSS*/
+
+.card-wrapper {
+    width: 100vw;
 }
+
+.cards {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.checkbox:checked ~ .cards {
+    width: 95%;
+}
+
+.checkbox:checked ~ .cards .business {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    height: 200px;
+}
+
+.checkbox:checked ~ .cards .business p:nth-of-type(2), .checkbox:checked ~ .cards .business p:nth-of-type(1) {
+    display: block;
+} 
+
+.checkbox:checked ~ .cards .business p:nth-of-type(1) {
+    text-align: left;
+}
+
+.checkbox:checked ~ .cards .business h2 {
+    font-size: 1.3rem;
+}
+
+.checkbox:checked ~ .cards .business p {
+    font-size: 1.15rem;
+}
+
+.wireframes {
+    flex-direction: row;
+}
+
+.wireframes a {
+    padding: 10px 10px 0 10px;
+}
+
+.dir-footer {
+    flex-direction: column;
+}
+
+.dir-footer div:nth-child(2) {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.dir-footer div:nth-child(2) > p {
+    line-height: 1rem;
+    margin-right: 2vw;
+}
+
+}
+

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Thank you page for joining the chamber of commerce for BYUI course WDD230">
+    <meta name="description" content="Directory page of chamber of commerce website for BYUI course WDD230">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -13,7 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Source+Sans+Pro:wght@400;700&display=swap"
         rel="stylesheet">
-    <title>Thank You!</title>
+    <title>Directory</title>
 </head>
 
 <body>
@@ -39,20 +39,16 @@
                 </ul>
             </nav>
         </div>
-        <!-- <div id="bottomofheader"></div> -->
+        <!--<div id="bottomofheader"></div>-->
     </header>
     <main>
-        <section class="thankyou-container">
-            <h1>Chamber of Commerce Membership Form</h1>
-            <div class="thankyou">
-                <p>
-                    Thank you for applying for membership in the Lake Pleasant Chamber of Commerce. Your membership
-                    begins immediately.</p>
-                <p> We have sent an email to you with more information on how to maximize your chamber membership
-                    benefits.
-                </p>
-            </div>
-        </section>
+        <div class="card-wrapper">
+            <h1 class="chamber-heading">Business Directory</h1>
+            <input type="checkbox" class="checkbox">
+            <div class="grid-button">▦ Grid</div>
+            <div class="list-button">▤ List</div>
+            <div class="cards"></div>
+        </div>
         <div class="info">
             <div class="info1">
                 <img class="logo2" src="images/logo.webp" alt="large logo">
@@ -69,13 +65,22 @@
             </div>
         </div>
     </main>
-    <footer>
-        <p>&copy;2023 Lake Pleasant Chamber</p>
-        <p>Annette MacLeod</p>
-        <p>WDD 230 Project</p>
-        <div id="lastMod"></div>
+    <footer class="dir-footer">
+        <div class="wireframes">
+            <a href="https://wireframe.cc/Khgo2W" target="_blank">Mobile Wireframe</a>
+            <a href="https://wireframe.cc/O8wVI5" target="_blank">Tablet Wireframe</a>
+            <a href="https://wireframe.cc/k3EwLt" target="_blank">Desktop Wireframe</a>
+        </div>
+        <div>
+            <p>&copy;2023 Lake Pleasant Chamber</p>
+            <p>Annette MacLeod</p>
+            <p>WDD 230 Project</p>
+            <div id="lastMod"></div>
+        </div>
+       
+
     </footer>
-    <script src="scripts/indexscripts.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 
 </html>

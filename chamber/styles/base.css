@@ -440,3 +440,157 @@ form label.one input:required:valid {
     text-align: center;
 }
 
+/*DIRECTORY PAGE CSS*/
+
+.chamber-heading {
+    text-align: center;
+    color:black;
+}
+
+.checkbox {
+    display: flex;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto -60px auto;
+    opacity: 0;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+
+}
+
+.list-button {
+    border: 3px solid #bf6E50;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0px 2px 5px #999;
+    cursor: pointer;
+    margin: 0 auto 20px auto;
+}
+
+.grid-button {
+    border: 3px solid #bf6E50;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0px 2px 5px #999;
+    cursor: pointer;
+    margin: 0 auto 20px auto;
+    display: none;
+    cursor: pointer;
+}
+
+
+
+section.business, section.business:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .5rem;
+    background-color: rgba(74, 149, 207, .3);
+    border: 3px solid rgb(74, 149, 207);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section.business h2, section.business:nth-of-type(1) h2 {
+    margin-bottom: .75rem;
+    color: black;
+    font-size: 1.7rem;
+}
+
+section.business > p {
+    margin: .05rem;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    box-shadow: 0 0 15px #555;
+    width: 96vw;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.business-logo {
+    margin: 25px 0;
+    box-shadow: 5px 4px 15px #bf6E50;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+    width: 100%;
+}
+
+.checkbox:checked ~ .cards .business img, .checkbox:checked ~ .cards .business p:nth-of-type(1), .checkbox:checked ~ .cards .business p:nth-of-type(2), .checkbox:checked ~ .cards .business p:nth-of-type(4), .checkbox:checked ~ .list-button {
+    display: none;    
+}
+
+.checkbox:checked ~ .grid-button {
+    display: block;
+}
+
+.checkbox:checked ~ .cards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: none;
+    margin-top: -10px;
+}
+
+
+.checkbox:checked ~ .cards .business  {
+     flex-direction: row;
+     flex: 1 1 auto;
+     justify-content: space-between;
+     height: 75px;
+     margin-top: 0;
+     margin-bottom: 0;
+     border-radius: 0;
+     border: none;
+}
+
+.checkbox:checked ~ .cards .business:nth-of-type(2n+1) {
+    background:rgba(191, 110, 80, .2);
+}
+
+.checkbox:checked ~ .cards .business:nth-of-type(2n) {
+    background:white;
+}
+
+.checkbox:checked ~ .cards .business h2 {
+    font-size: 1.15rem;
+    text-align: left;
+    margin-top: 9px;
+}
+
+.checkbox:checked ~ .cards .business p {
+    font-size: 1.10rem;
+    text-align: right;
+}
+
+.wireframes {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin: -20px 0 40px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    line-height: 2rem;
+}
+
+#lastMod {
+    margin-bottom: 20px;
+}
+

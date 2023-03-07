@@ -180,5 +180,14 @@ main section.thankyou-container {
     margin-bottom: 20px;
 }
 
+/* DIRECTORY PAGE CSS */
+
+.chamber-heading {
+padding-bottom: 20px;
+}
+
+.cards {
+margin-left: 2vw;
+}
 
 }
