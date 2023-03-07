@@ -100,6 +100,17 @@
             "memberlevel": "Gold"
         },
         {
+            "bname": "Mitchell Chiropractic",
+            "baddress": "9844 W. Yearling Rd. Suite D-1100",
+            "bcity": "Peoria",
+            "bstate": "AZ",
+            "bzip": "85383",
+            "bphone": "623-878-8200",
+            "weburl": "mitchellchiropracticaz.com",
+            "logourl" :"https://www.mitchellchiropracticaz.com/images/logo.png",
+            "memberlevel": "Bronze"
+        },
+        {
             "bname": "Atkinson's Martial Arts",
             "baddress": "8510 West Deer Valley Road",
             "bcity": "Peoria",
