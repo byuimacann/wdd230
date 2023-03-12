@@ -56,13 +56,6 @@ const displayBusinesses = (businesses) => {
 
 
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector(".cards");
-
-
-
-
 //Hamburger Menu Toggle Function//
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");

@@ -47,18 +47,18 @@
         <section class="callaction">
             <h2>Lake Pleasant Chamber of Commerce</h2>
             <div class="heroimg-container">
-                <!--<picture>
+                <!-- <picture>
                     <source media="(min-width:1000px )" srcset="images/waterhome1000.jpg">
                     <source media="(min-width:600px )" srcset="images/waterhome800.jpg">
                     <source srcset="images/waterhome400.jpg">
-                    <img class="heroimg src=" images="images/waterhome400.jpg"
-                        alt="large water pool with homes surrounding">
-                </picture>-->
+                    <img class="heroimg" src="images/waterhome400.jpg" alt="large water pool with homes surrounding"> 
+                </picture> -->
                 <picture>
                     <source media="(min-width:1000px )" srcset="images/wdd230-orgtall1250.jpg">
                     <source media="(min-width:600px )" srcset="images/wdd230-org800.jpg">
                     <source srcset="images/wdd230-org400.jpg">
-                    <img class="heroimg" src="images/wdd230-org400.jpg" alt="boardroom with business people around table">
+                    <img class="heroimg" src="images/wdd230-org400.jpg"
+                        alt="boardroom with business people around table">
                 </picture>
             </div>
             <button type="submit">Join Now</button>
@@ -73,12 +73,20 @@
         <section class="weather">
             <div>
                 <h3>Weather</h3>
-                <img src="images/sun.jpg" alt="image of a yellow sun">
+                <figure>
+                    <img id="weather-icon" src="#" alt="#">
+                    <figcaption></figcaption>
+                </figure>
                 <p>
-                    <span id="tempF">35</span>℉<br>
-                    Wind Speed: <span id="wSpeed">6.0</span>mph<br>
+                    <span id="tempF"></span><span class="f">℉</span><br>
+                    Wind Speed: <span id="wSpeed"></span><span> mph</span><br>
                     Wind Chill: <span id="wChill"></span>
                 </p>
+                <div class="cite-api">
+                    <a href="https://openweathermap.org/" target="_blank"><img
+                                src="images/OpenWeather-Master-Logo.png" alt="OpenWeather Logo"></a>
+                </div>
+                <p>Weather data provided by OpenWeather</p>
             </div>
         </section>
         <section class="newsrelease">
@@ -160,7 +168,6 @@
         <div id="lastMod"></div>
     </footer>
     <script src="scripts/indexscripts.js"></script>
-    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
